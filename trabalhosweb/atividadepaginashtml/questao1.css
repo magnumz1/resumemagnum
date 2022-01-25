@@ -1,0 +1,39 @@
+*{
+    padding: 0%;
+}
+body{
+    background-color: black;
+    font: 10pt;
+}
+p{
+    color: white;
+    
+}
+i{
+    color: white;
+}
+#right{
+    background-color: white;
+    text-align: right;
+    color: black;
+}
+#center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+a{
+    color: green;
+}
+a:hover{
+    color: orange;
+}
+span{
+    background-color: blue;
+    color: white;
+}
+#ss{
+    background-color: red;
+    color: white;
+}
