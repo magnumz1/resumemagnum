@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 18vw;
+    height: 10vh;
+    margin: 2px;
+    color: white;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    width: 100%;
+    margin: .1rem;
+    list-style: none;
+    font-size: 1.3rem;
+    background-color: rgb(204,204,204);
+}
+
+li:hover{
+    background-color: #e01b6a;
+}
+
+
+
+a{
+    display: block;
+    width: 100%;
+    color: currentColor;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+img{
+    width: 30px;
+    height: 30px;
+    padding: .8rem;
+    background-color: #e01b6a;
+}

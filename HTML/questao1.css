@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#menu li{
+    display: inline;
+}
+
+#menu li a{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    display: inline-block;
+    text-decoration-line: overline;
+    text-decoration-color: gray;
+}
+
+#menu li a:hover{
+    color: red;
+    text-decoration-color: red;
+}
